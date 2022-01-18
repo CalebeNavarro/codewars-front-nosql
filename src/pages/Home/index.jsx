@@ -13,8 +13,8 @@ const Home = () => {
     !isLoaded ?  (
       <DivStyle>
         <Box sx={{ display: 'flex', flexDirection: "column", alignItems: "center"}}>
-          <CircularProgress style={{'color': '#d604e9', marginBottom: "20px"}}/>
-          <Typography style={{color: "white"}}>
+          <CircularProgress style={{'color': 'var(--color-third)', marginBottom: "20px"}}/>
+          <Typography style={{color: 'var(--color-second)'}}>
             Loading...
           </Typography>
         </Box>

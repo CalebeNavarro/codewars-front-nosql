@@ -7,6 +7,7 @@ export default function Header() {
 
   return (
     <HeaderStyle>
+      <img src="" alt="Kenzie logo"/>
       <nav>
         <ul>
           <li><Button pointerName={'Todos DEVs'} /></li>

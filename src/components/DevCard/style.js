@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const UlStyle = styled.ul`
   display: flex;
-  background-color: antiquewhite;
   padding: 5px;
   gap: 10px;
   width: 400px;
   padding: 10px;
   border-radius: 7px;
-  background: linear-gradient(to right, #f80759, ${props => props.color});
+  /* background: linear-gradient(to right, var(--color-second), var(--soft-white)); */
+  background-color: var(--color-second);
   opacity: 0.9;
 
 
@@ -16,11 +16,11 @@ export const UlStyle = styled.ul`
     color: white;
     font-weight: 700;
   }
-  li:nth-child(1){
+  /* li:nth-child(1){
     width: 25px;
-  }
+  } */
   li:nth-child(2){
-    width: 150px;
+    flex-grow: 1;
   }
 
   transition: 0.2s;

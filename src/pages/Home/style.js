@@ -6,22 +6,21 @@ export const HomeStyle = styled.div`
   justify-content: center;
   align-items: center;
   
-  background: #bc4e9c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--background-primary);  /* fallback for old browsers */
 
 
   button {
     padding: 20px 30px;
     border-radius: 7px;
     text-transform: uppercase;
-    background-color: var(--color-second);
-    border: 2px solid #f80759;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-second);
     font-size: 1.5rem;
 
     :hover {
-      border: 2px solid #bc4e9c;
+      border: 2px solid var(--color-primary);
       background-color: var(--color-third);
+      color: var(--color-primary);
     }
   }
 `
