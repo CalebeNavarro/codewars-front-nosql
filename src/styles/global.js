@@ -9,12 +9,13 @@ const GlobalStyle = createGlobalStyle`
     }
 
     :root {
-        --background-primary: #262626;
-        --background-second: #404040;
-        --color-primary: #737373;
-        --color-second: #A6A6A6;
-        --color-third: #D9D9D9;
-        --white: #f5f5f5;
+        --color-primary: #fff;
+        --color-second: #001e32;
+        --color-third: #3532ff;
+        --text-color: #2d2d2d;
+        --soft-white: #f5f5f5;
+        --background-primary: #fff;
+        --background-second: #f5f5f5;
         --black: #0C0D0B;
         --color-placeholder:#4e5555;
         --font-home: "Baloo Tamma 2", "cursive";

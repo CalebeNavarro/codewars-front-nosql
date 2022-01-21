@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const HeaderStyle = styled.header`
-  background-color: grey;
   padding: 20px;
 
   nav {
@@ -15,6 +14,6 @@ export const HeaderStyle = styled.header`
       justify-content: center;
     }
       ul li {
-        
+    
       }
 `

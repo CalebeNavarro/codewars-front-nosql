@@ -28,8 +28,8 @@ const DevCard = ({dev, position}) => {
 
     <UlStyle color={color} onClick={handleOpen}>
       <li>{position}</li>
-      <li>{dev.name.length > 15
-      ? dev.name.substring(0, 13) + '...'
+      <li>{dev.name.length > 30
+      ? dev.name.substring(0, 30) + '...'
       : dev.name
     }</li>
       <li>{dev.current_honor}</li>
