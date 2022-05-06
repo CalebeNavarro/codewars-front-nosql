@@ -7,4 +7,8 @@ export const MainStyle = styled.main`
   gap: 10px;
   justify-content: center;
   align-items: center;
+
+  h2 {
+    color: var(--color-second);
+  }
 `
